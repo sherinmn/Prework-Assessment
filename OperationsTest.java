@@ -1,6 +1,6 @@
 import java.util.Scanner;
 public class OperationsTest {
-	
+	//To check for palindrome
 	public void checkPalindrome(int num)
 	{
 		int rev=0,sum=0,temp;
@@ -19,6 +19,7 @@ public class OperationsTest {
 		
 	}
 	
+	//to print * pattern
 	public void printPattern(int num)
 	{
 		for(int i=num;i>=0;i--)
@@ -31,6 +32,7 @@ public class OperationsTest {
 		}
 	}
 	
+	//to check for prime number
 	public void checkPrimeNumber(int num)
 	{
 		boolean flag=false;
@@ -47,6 +49,7 @@ public class OperationsTest {
 			System.out.println("The number is not a prime number");
 	}
 	
+	//to print fibonacci series
 	public void printFibonacciSeries(int num) 
 	{
 		int first=0,second=1,n=0;
